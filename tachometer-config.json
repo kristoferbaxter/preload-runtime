@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Polymer/tachometer/master/config.schema.json",
+  "sampleSize": 50,
+  "timeout": 10,
+  "benchmarks": [
+    {
+      "name": "Preload",
+      "url": "documents/preload.html",
+      "browser": {
+        "name": "chrome",
+        "headless": true,
+        "cpuThrottlingRate": 6,
+        "windowSize": {
+          "width": 411,
+          "height": 731
+        }
+      },
+      "measurement": "global"
+    },
+    {
+      "name": "Preload Local",
+      "url": "documents/preload-local.html",
+      "browser": {
+        "name": "chrome",
+        "headless": true,
+        "cpuThrottlingRate": 6,
+        "windowSize": {
+          "width": 411,
+          "height": 731
+        }
+      },
+      "measurement": "global"
+    },
+    {
+      "name": "No Preload",
+      "url": "documents/no-preload.html",
+      "browser": {
+        "name": "chrome",
+        "headless": true,
+        "cpuThrottlingRate": 6,
+        "windowSize": {
+          "width": 411,
+          "height": 731
+        }
+      },
+      "measurement": "global"
+    }
+  ]
+}

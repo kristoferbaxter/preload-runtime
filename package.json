@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "name": "sampling",
+  "version": "0.1.0",
+  "main": "index.js",
+  "license": "Apache-2.0",
+  "scripts": {
+    "bench": "yarn tachometer --config=tachometer-config.json"
+  },
+  "devDependencies": {
+    "chromedriver": "^84.0.1",
+    "tachometer": "^0.5.0"
+  }
+}
