@@ -9,6 +9,6 @@ If you'd like to try locally, here are the steps:
 
 The results look pretty clear, the meta preload tag hurts LCP for this sample.
 
-![No Preload is the fastest result by a few percentage points](example.jpg)
+![No Preload is the fastest result by a few percentage points](/example.png)
 
 **Please Note** This is only intended to help inform, not prescribe an approach.
